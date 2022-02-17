@@ -1,0 +1,226 @@
+body {
+    position: relative;
+    height: 1100px;
+    background-image: linear-gradient(45deg, #80d0ff 0%, #a9ee70 35%, #e583c3 65%, #f7e25c 100%);
+   
+}
+h1 {
+    text-align: center;
+    font-weight:normal;
+    font-family: Helvetica;
+}
+h2 {
+    text-align: center;
+    font-weight: normal;
+}
+li {
+    line-height: 22px;
+}
+
+h4{
+    font-size: 32px;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color:black;
+ 
+}
+a:active {
+
+    color: white;
+}
+a:hover {
+ 
+    color: white;
+}
+
+
+#sectionone {
+    position: absolute;
+    top: 150px;
+  left: 470px;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  border: solid black;
+    font-size: 64px;
+    padding: 20px;
+    width: 700px;
+}
+#sectionone:hover {
+    color: white;
+    background-color: rgb(128, 208, 255);
+}
+#sectiontwo {
+    position: absolute;
+    top: 300px;
+    left: 470px;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  border: solid black;
+    width: 700px;
+    font-size: 64px;
+    padding: 20px;
+}
+#sectiontwo:hover {
+    color: white;
+    background-color: rgb(169, 238, 112);
+}
+#sectionthree {
+    position: absolute;
+    top: 450px;
+    left: 470px;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  border: solid black;
+    width: 700px;
+    font-size: 64px;
+    padding: 20px;
+}
+#sectionthree:hover {
+    color: white;
+    background-color: rgb(247, 226, 92);
+}
+#sectionfour {
+    position: absolute;
+    top: 600px;
+    left: 470px;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  border: solid black;
+    width: 700px;
+    font-size: 64px;
+    padding: 20px;
+}
+#sectionfour:hover {
+    color: white;
+    background-color: rgb(229, 131, 195);
+}
+#pagetwo {
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    height: 880px;
+    background: rgb(128, 208, 255);
+}
+#projects {
+    position: absolute;
+    left: 600px;
+    align-content: center;
+    height: 200px;
+    font-size: 34px;
+    line-height: 64px;
+    padding: 50px;
+
+    
+}
+#pagethree {
+    position: absolute;
+    top: 2200px;
+    width: 100%;
+    height: 880px;
+    background: rgb(169, 238, 112);
+}
+#exercises {
+    position: absolute;
+    left: 600px;
+    align-content: center;
+    width: 700px;
+    font-size: 34px;
+    line-height: 64px;
+    padding: 50px;
+}
+#pagefour{
+    position: absolute;
+    top: 3200px;
+    width: 100%;
+    height: 880px;
+    background: rgb(247, 226, 92);
+}
+#workshops {
+    position: absolute;
+    left: 600px;
+    align-content: center;
+    width: 700px;
+    font-size: 34px;
+    line-height: 64px;
+    padding: 50px;
+}
+#pagefive{
+    position: absolute;
+    top: 4200px;
+    width: 100%;
+    height: 880px;
+    background: rgb(229, 131, 195);
+    z-index: 2;
+}
+#readings {
+    position: absolute;
+    left: 550px;
+    align-content: center;
+    width: 700px;
+    font-size: 34px;
+    line-height: 64px;
+    padding: 50px;
+    z-index: 1;
+}
+#pagesix{
+    position: absolute;
+    top: 4200px;
+
+}
+#ending {
+    position: absolute;
+    left: 470px;
+    align-content: center;
+    text-align: center;
+    width: 700px;
+    font-size: 34px;
+    line-height: 64px;
+    padding: 50px;
+}
+  
+#kaya {
+    position: absolute;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    top: 5px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+
+}
+
+#back {
+    position: absolute;
+    top: 780px;
+    left: -520px;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 110px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+#back:hover {
+    position: absolute;
+    top: 780px;
+    left: -520px;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 110px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,215 @@
+body {background-color: black;
+    position: absolute;
+}
+#header {
+    position: absolute;
+    top:130px;
+    left: 750px;
+    line-height: 40px;
+}
+#title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 32px;
+    width: 1000px;
+}
+#shel {
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 18px;
+   
+}
+#navsection {
+    font-weight: lighter;
+    position: sticky;
+    top: 20px;
+    width: 1665px;
+}
+#navigation {
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 8em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+a:link { text-decoration: none;
+color: white; }
+
+a:visited { text-decoration: none;color: white; }
+
+a:hover { text-decoration: none; color: grey;}
+
+a:active { text-decoration: none;color: white; }
+#poem {
+    position: relative;
+    top: 100px;
+    font-family: Verdana, sans-serif;
+    width: 1600px;
+    margin-top: 250px;
+    
+}
+div {
+    position: relative;
+}
+#last {
+    transform: rotate(14.4deg);
+    top: 770px;
+    color: red;
+}
+#some {
+    transform: rotate(28.8deg);
+    top: 740px;
+    color:red;
+}
+#and {
+    transform: rotate(43.2deg);
+    top: 710px;
+    color:red;
+}
+#sang {
+    transform: rotate(57.6deg);
+    top: 690px;
+    color:red
+}
+#school {
+    transform: rotate(72deg);
+    top: 660px;
+    color:orange;
+}
+#closed {
+    transform: rotate(86.4deg);
+    top: 630px;
+    color:orange;
+}
+#beat {
+    transform: rotate(100.8deg);
+    top: 630px;
+    color:orange;
+}
+#poison {
+    transform: rotate(115.2deg);
+    top: 660px;
+    color:orange;
+}
+#cry {
+    transform: rotate(129.6deg);
+    top: 690px;
+    color:yellow;
+}
+#die {
+    color: yellow;
+    top: 710px;
+    transform: rotate(144deg);
+}
+#test {
+    transform: rotate(158.4deg);
+    top: 740px;
+    color:yellow;}
+    
+#green {
+    transform: rotate(172.8deg);
+    top: 770px;
+    color:green;
+}
+#nobody {
+    transform: rotate(187.2deg);
+    top: 740px;
+    color:green;
+}
+#bolt {
+    transform: rotate(201.6deg);
+    top: 710px;
+    color:green;
+}
+#talle {
+    transform: rotate(216deg);
+    top: 710px;
+    color:green;
+}
+#head {
+    transform: rotate(230.4deg);
+    top: 680px;
+    color:blue;
+}
+#fish {
+    transform: rotate(244.8deg);
+    top: 650px;
+    color:blue;
+}
+#kite {
+    transform: rotate(259.2deg);
+    top: 620px;
+    color:blue;
+}
+#war {
+    transform: rotate(273.6deg);
+    top: 590px;
+    color:blue;
+}
+#divorced {
+    transform: rotate(288deg);
+    top: 560px;
+    color:indigo;
+}
+#bus {
+    transform: rotate(302.4deg);
+    top: 530px;
+    color:indigo;
+}
+#teeth {
+    transform: rotate(316.8deg);
+    top: 500px;
+    color:indigo;
+}
+#tear {
+    transform: rotate(331.2deg);
+    top: 470px;
+    color:violet;
+}
+#dance {
+    transform: rotate(345.6deg);
+    top: 440px;
+    color:violet;
+}
+#well {
+    transform: rotate(360deg);
+    top: 410px;
+    color:violet;
+}
+#again {
+    left: 720px;
+    top: 380px;
+    color:violet;
+}
+#red{
+     color: red;
+ }
+#orange{
+    color: orange;
+}
+#yellow{
+    color: yellow;
+}
+#green{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+#indigo{
+    color: indigo;
+}
+#violet{
+    color: violet;
+}

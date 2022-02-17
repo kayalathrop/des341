@@ -1,0 +1,303 @@
+/*general css*/
+
+html {
+    scroll-behavior: smooth;
+  }
+#main {
+    text-align: center;
+    position: relative;
+    float: center;
+}
+body {
+    position: relative;
+
+}
+
+#header {
+    position: absolute;
+    top:130px;
+    left: 750px;
+    line-height: 40px;
+}
+#body {
+    line-height: 30px;
+}
+#title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 32px;
+    width: 1000px;
+}
+#shel {
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 18px;
+   
+}
+#navsection {
+    font-weight: lighter;
+    position: sticky;
+    top: 20px;
+    width: 1665px;
+}
+#navigation {
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 8em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+a:link { text-decoration: none;
+color: black; }
+
+a:visited { text-decoration: none;color: black; }
+
+a:hover { text-decoration: none; color: grey;}
+
+a:active { text-decoration: none;color: black; }
+
+@keyframes across {
+    0% {transform: translate(20px, 20px);}
+    50% {
+        transform: translate(1220px, 310px);}
+    75% {
+        transform: translate(20px, 410px);}
+
+    100% {transform: translate(20px, 20px);}
+}
+
+
+#one {
+    width: 300px;
+    height: 300px;
+    animation-name: across;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color:rgb(238, 206, 90);
+    color:rgb(1, 1, 90);
+}
+
+@keyframes past {
+    0% {transform: translate(1220px, -220px);}
+    50% {
+        transform: translate(20px, 90px)
+        ;}
+    75% {
+        transform: translate(220px, -220px);}
+
+    100% {transform: translate(1220px, 0px);}
+}
+
+
+#two {
+    width: 300px;
+    height: 300px;
+    animation-name: past;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color:rgb(238, 206, 90);
+    padding: 30px;
+    padding-bottom: 10px;
+    color:rgb(1, 1, 90);
+    animation-delay: 1s;
+}
+
+@keyframes forward {
+    0% {transform: translate(1220px, -620px);}
+    50% {
+        transform: translate(20px, -300px)
+        ;}
+    75% {
+        transform: translate(0px, -620px);}
+
+    100% {transform: translate(1220px, -300px);}
+}
+
+
+#three {
+    width: 300px;
+    height: 300px;
+    animation-name: forward;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color:rgb(1, 1, 90);
+    color:rgb(238, 206, 90);
+    animation-delay: 2s
+}
+
+@keyframes next {
+    0% {transform: translate(20px, -600px);}
+    50% {
+        transform: translate(1220px, -900px);}
+    75% {
+        transform: translate(20px, -1000px);}
+
+    100% {transform: translate(20px, -600px);}
+}
+
+
+#four {
+    width: 300px;
+    height: 300px;
+    animation-name: next;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color:rgb(1, 1, 90);
+    color:rgb(238, 206, 90);
+    padding: 30px;
+    padding-bottom: 10px;
+    animation-delay: 3s;
+}
+
+
+
+
+
+
+
+@keyframes triangle {
+    0% {transform: translate(20px, -1000px);}
+    50% {
+        transform: translate(1220px, -1000px);}
+    75% {
+        transform: translate(20px, -1300px);}
+
+    100% {transform: translate(20px, -1000px);}
+}
+
+
+#five {
+    width: 300px;
+    height: 300px;
+    animation-name: triangle;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color:rgb(238, 206, 90);
+    color:rgb(1, 1, 90);
+    animation-delay: 4s;
+}
+
+@keyframes square {
+    0% {transform: translate(1220px, -1300px);}
+    50% {
+        transform: translate(20px, -1300px)
+        ;}
+    75% {
+        transform: translate(20px, -1700px);}
+
+    100% {transform: translate(1210px, -1350px);}
+}
+
+
+#six {
+    width: 300px;
+    height: 300px;
+    animation-name: square;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color:rgb(238, 206, 90);
+    padding: 30px;
+    padding-bottom: 10px;
+    color:rgb(1, 1, 90);
+    animation-delay: 5s
+
+}
+
+@keyframes hello {
+    0% {transform: translate(1220px, -2000px);}
+    50% {
+        transform: translate(20px, -1700px)
+        ;}
+    75% {
+        transform: translate(0px, -2000px);}
+
+    100% {transform: translate(1220px, -2000px);}
+}
+
+
+#seven {
+    width: 300px;
+    height: 300px;
+    animation-name: hello;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color:rgb(1, 1, 90);
+    color:rgb(238, 206, 90);
+    animation-delay: 6s
+}
+
+@keyframes bye {
+    0% {transform: translate(20px, -2300px);}
+    50% {
+        transform: translate(1220px, -1990px);}
+    75% {
+        transform: translate(1220px, -2300px);}
+
+    100% {transform: translate(20px, -2300px);}
+}
+
+
+#eight {
+    width: 300px;
+    height: 300px;
+    animation-name: bye;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-align: justify;
+    letter-spacing: .84px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color:rgb(1, 1, 90);
+    color:rgb(238, 206, 90);
+    padding: 30px;
+    padding-bottom: 10px;
+    animation-delay: 7s
+  ;
+}

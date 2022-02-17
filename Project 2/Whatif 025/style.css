@@ -1,0 +1,695 @@
+
+/*general css*/
+
+html {
+    scroll-behavior: smooth;
+  }
+#main {
+    text-align: center;
+    position: relative;
+    float: center;
+}
+body {
+    position: relative;
+    background-color:rgb(73, 7, 7);
+
+}
+
+#header {
+    position: absolute;
+    top:130px;
+    left: 750px;
+    line-height: 40px;
+}
+#body {
+    line-height: 30px;
+}
+#title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 32px;
+    width: 1000px;
+}
+#shel {
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 18px;
+   
+}
+#navsection {
+    font-weight: lighter;
+    position: sticky;
+    top: 20px;
+    width: 1665px;
+}
+#navigation {
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 8em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+} 
+a:link { text-decoration: none;
+color: black; }
+
+a:visited { text-decoration: none;color: black; }
+
+a:hover { text-decoration: none; color: grey;}
+
+a:active { text-decoration: none;color: black; }
+
+/* animation code */
+
+@keyframes one {
+    0%   {background-color: rgb(254, 254, 154);
+        -webkit-background-clip: text;
+        opacity:10%;
+
+    }
+    5% {background-color:rgb(255, 255, 102);
+        -webkit-background-clip: text;
+        opacity:20%;
+   
+    }
+    10%  {background-color: yellow;
+        -webkit-background-clip: text;
+        opacity:30%;
+        
+    }
+15%  {background-color: rgb(255, 221, 0);
+        -webkit-background-clip: text;
+        opacity:40%;
+    
+    }
+    20%  {background-color: rgb(255, 200, 0);
+        -webkit-background-clip: text;
+        opacity:50%;
+     
+    }
+    25%  {background-color: orange;
+     -webkit-background-clip: text;
+     opacity:60%;
+    
+    }
+     
+    30%  {background-color: rgb(255, 136, 0);
+        -webkit-background-clip: text;
+        opacity:70%;
+;
+    }
+    35% {background-color: rgb(255, 94, 0);
+        -webkit-background-clip: text;
+        opacity:80%;
+    
+    }
+    40%  {background-color: rgb(255, 51, 0);
+        -webkit-background-clip: text;
+        opacity:90%;
+;
+    }
+        
+    45%  {background-color: rgb(255, 0, 0);
+        -webkit-background-clip: text;
+        opacity:100%;
+        }
+    50% {background-color: rgb(222, 0, 0);
+        -webkit-background-clip: text;
+        opacity:100%;
+     }
+        55%  {background-color: rgb(255, 0, 0);
+            -webkit-background-clip: text;
+            opacity:90%;
+        }
+            60%  {background-color: rgb(255, 51, 0);
+                -webkit-background-clip: text;
+                opacity:80%;
+       }
+                65% {background-color: rgb(255, 94, 0);
+                    -webkit-background-clip: text;
+                    opacity:70%;
+                  }
+                    70%  {background-color: rgb(255, 136, 0);
+                        -webkit-background-clip: text;
+                        opacity:60%;
+                     }
+                        75%  {background-color: orange;
+                            -webkit-background-clip: text;
+                            opacity:50%;
+                      }
+                            80%  {background-color: rgb(255, 200, 0);
+                                -webkit-background-clip: text;
+                                opacity:40%;
+                          }
+                                85%  {background-color: rgb(255, 221, 0);
+                                    -webkit-background-clip: text;
+                                    opacity:30%;
+                                   }
+                                  90%  {background-color: yellow;
+                                        -webkit-background-clip: text;
+                                        opacity:20%;
+                                      }
+  95% {background-color:rgb(255, 255, 102);
+    -webkit-background-clip: text;
+    opacity:10%;
+    }
+100%   {background-color: rgb(254, 254, 154);
+        -webkit-background-clip: text;
+        opacity:5%;
+    }}
+
+       
+  /* animated elements */
+
+ /* ONE  */
+
+  .hide {
+    display: none;
+    color:yellow;
+  }
+  .one:hover + .hide {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:yellow;
+  }
+  .one {
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 5s;
+    
+  }
+ 
+      /* TWO */
+      .hide2 {
+        display: none;
+        color:yellow;
+      }
+  .two:hover + .hide2 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:yellow;
+  }
+  
+  .two {
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 4s;
+    
+  }
+
+
+      /* THREE */
+      .hide3 {
+        display: none;
+        color:rgb(255, 221, 0);
+      }
+      .three:hover + .hide3 {
+        display: block;
+        font-size: 60px;
+        font-family:Tahoma;
+        color:rgb(255, 221, 0);
+      }
+      
+      .three {
+        font-family:Tahoma;
+        color:transparent;
+        animation-name: one;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        float:left;
+        opacity: 0%;
+        animation-delay: 2s;
+        
+      }
+    
+    /* FOUR */
+    .hide4 {
+      display: none;
+      color:rgb(255, 221, 0);
+      }
+    .four:hover + .hide4 {
+        display: block;
+        font-size: 60px;
+        font-family:Tahoma;
+        color:rgb(255, 221, 0);
+      }
+      
+      .four {
+        font-family:Tahoma;
+        color:transparent;
+        animation-name: one;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        float:left;
+        opacity: 0%;
+        animation-delay: 10s;
+        
+      }
+    /* FIVE*/
+    .hide5 {
+      display: none;
+      color:rgb(255, 200, 0);
+      }
+    .five:hover + .hide5 {
+        display: block;
+        font-size: 60px;
+        font-family:Tahoma;
+        color:rgb(255, 200, 0);
+      }
+      
+      .five{
+        font-family:Tahoma;
+        color:transparent;
+        animation-name: one;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        float:left;
+        opacity: 0%;
+        animation-delay: 2s;
+        
+      }
+       /* SIX */
+       .hide6 {
+        display: none;
+        color:rgb(255, 200, 0);
+      }
+    .six:hover + .hide6 {
+        display: block;
+        font-size: 60px;
+        font-family:Tahoma;
+        color:rgb(255, 200, 0);
+      }
+      
+      .six {
+  
+        font-family:Tahoma;
+        color:transparent;
+        animation-name: one;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        float:left;
+        opacity: 0%;
+        animation-delay: 4s;
+        
+      }
+   /* SEVEN */
+   .hide7 {
+    display: none;
+    color:rgb(255, 136, 0);
+  }
+   .seven:hover + .hide7 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(255, 136, 0);
+  }
+  
+  .seven {
+
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 3s;
+    
+  }
+      /* EIGHT */
+      .hide8 {
+        display: none;
+        color:rgb(255, 136, 0);
+      }
+   .eight:hover + .hide8 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(255, 136, 0);
+  }
+  
+  .eight {
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 4s;
+    
+  }
+        /* NINE */
+        .hide9 {
+          display: none;
+          color:orange;
+          }
+        .nine:hover + .hide9 {
+            display: block;
+            font-size: 60px;
+            font-family:Tahoma;
+            color:orange;
+          }
+          
+          .nine {
+         
+            font-family:Tahoma;
+            color:transparent;
+            animation-name: one;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            float:left;
+            opacity: 0%;
+            animation-delay: 9s;
+            
+          }
+           /* TEN */
+        .hide10 {
+            display: none;
+            color:orange;
+          }
+       .ten:hover + .hide10 {
+        display: block;
+        font-size: 60px;
+        font-family:Tahoma;
+        color:orange;
+      }
+      
+      .ten {
+        font-family:Tahoma;
+        color:transparent;
+        animation-name: one;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        float:left;
+        opacity: 0%;
+        animation-delay: 1s;
+        
+      }
+
+ /* ELEVEN */
+ .hide11 {
+  display: none;
+  color:rgb(255, 200, 0);;
+  }
+.eleven:hover + .hide11 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(255, 200, 0);;
+  }
+  
+  .eleven {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 4s;
+    
+  }
+   /* TWELVE */
+   .hide12 {
+    display: none;
+    color:rgb(255, 200, 0);;
+  }
+.twelve:hover + .hide12 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(255, 200, 0);;
+  }
+  
+  .twelve {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 2s;
+    
+  }
+ /* THIRTEEN */
+ .hide13 {
+  display: none;
+  color:rgb(255, 221, 0);
+  }
+.thirteen:hover + .hide13 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(255, 221, 0);
+  }
+  
+  .thirteen {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 5s;
+    
+  }
+         /* FOURTEEN */
+         .hide14 {
+          display: none;
+          color:rgb(255, 221, 0);
+          }
+        .fourteen:hover + .hide14 {
+            display: block;
+            font-size: 60px;
+            font-family:Tahoma;
+            color:rgb(255, 221, 0);
+          }
+          
+          .fourteen {
+         
+            font-family:Tahoma;
+            color:transparent;
+            animation-name: one;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            float:left;
+            opacity: 0%;
+            animation-delay:7s;
+            
+          }
+           
+     /* FIFTHTEEN */
+     .hide15 {
+      display: none;
+      color:yellow;
+      }
+    .fifteen:hover + .hide15 {
+        display: block;
+        font-size: 60px;
+        font-family:Tahoma;
+        color:yellow;
+      }
+      
+      .fifteen {
+     
+        font-family:Tahoma;
+        color:transparent;
+        animation-name: one;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        float:left;
+        opacity: 0%;
+        animation-delay: 6s;
+        
+      }
+ /* SIXTEEN */
+ .hide16 {
+  display: none;
+  color:yellow;
+  }
+.sixteen:hover + .hide16 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:yellow;
+  }
+  
+  .sixteen {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 1s;
+    
+  }
+ /* SEVENTEEN */
+ .hide17 {
+  display: none;
+  color:rgb(255, 255, 102);
+  }
+.seventeen:hover + .hide17 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(255, 255, 102);
+  }
+  
+  .seventeen {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 5s;
+    
+  }
+ /* EIGHTTEEN */
+ .hide18 {
+  display: none;
+  color:rgb(255, 255, 102);
+  }
+.eighteen:hover + .hide18 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(255, 255, 102);
+  }
+  
+  .eighteen {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation-delay: 8s;
+    
+  }
+   /* NINETEEN */
+   .hide19 {
+    display: none;
+    color:rgb(254, 254, 154);
+  }
+.ninteen:hover + .hide19 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(254, 254, 154);
+  }
+  
+  .ninteen {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 10s;
+    
+  }
+   /* TWENTY */
+   .hide20 {
+    display: none;
+    color:rgb(254, 254, 154);
+  }
+.twenty:hover + .hide20 {
+    display: block;
+    font-size: 60px;
+    font-family:Tahoma;
+    color:rgb(254, 254, 154);
+  }
+  
+  .twenty {
+ 
+    font-family:Tahoma;
+    color:transparent;
+    animation-name: one;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float:left;
+    opacity: 0%;
+    animation-delay: 3s;
+    
+  }
+  #poem {
+    font-family:Tahoma;
+    text-transform: uppercase;
+    position: absolute;
+font-size: 80px;}

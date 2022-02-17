@@ -1,0 +1,482 @@
+
+/*general css*/
+
+html {
+    scroll-behavior: smooth;
+  }
+#main {
+    text-align: center;
+    position: relative;
+    float: center;
+}
+body {
+    position: relative;
+    background-color: hotpink;
+
+}
+
+#header {
+    position: absolute;
+    top:130px;
+    left: 750px;
+    line-height: 40px;
+}
+#body {
+    line-height: 30px;
+}
+#title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 32px;
+    width: 1000px;
+}
+#shel {
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 18px;
+   
+}
+#navsection {
+    font-weight: lighter;
+    position: sticky;
+    top: 20px;
+    width: 1665px;
+}
+#navigation {
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 8em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+} 
+a:link { text-decoration: none;
+    color: black; }
+    
+    a:visited { text-decoration: none;color: black; }
+    
+    a:hover { text-decoration: none; color: grey;}
+    
+    a:active { text-decoration: none;color: black; }
+    
+    /* animation code */
+
+#circletwo {
+    align-content: center;
+    position: absolute;
+    left: 600px;
+    top: 1500px;
+    width: 600px;
+    height: 600px;
+    background:greenyellow;
+    border-radius: 50%;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 0.8em;
+  padding: 0.13em 0.2em 0.09em 0.2em;
+  color: inherit;
+  border: 1px solid;
+  text-decoration: none;
+  background-color: pink;
+  opacity: 100%;
+
+  }
+#circle {
+    align-content: center;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    width: 600px;
+    height: 600px;
+    background:greenyellow;
+    border-radius: 50%;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 0.8em;
+  padding: 0.13em 0.2em 0.09em 0.2em;
+  color: inherit;
+  border: 1px solid;
+  text-decoration: none;
+  background-color: pink;
+  opacity: 100%;
+
+  }
+  .starttwo{
+    position: absolute;
+    left: 680px;
+    top: 1800px;  
+    width: 400px;
+    line-height: 34px;
+    font-size: 14pt;
+    animation: spin 4s infinite linear;
+    animation-delay: 3s;
+  }
+  .start{
+    position: absolute;
+    left: 680px;
+    top: 640px;  
+    width: 400px;
+    line-height: 34px;
+    font-size: 14pt;
+    animation: spin 4s infinite linear;
+
+  }
+  #upone {
+    position: absolute;
+    animation: up 2s infinite;
+    top: 970px;
+    font-size: 60px;
+    left: 750px;
+    height: 2000px;    animation-delay: 1s;
+
+    
+}
+#uptwo {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 860px;
+    font-size: 60px;
+    animation-delay: 1s;    left: 700px;
+    height: 2000px;
+}
+#upthree {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 980px;
+    font-size: 60px;
+    animation-delay: 2s;
+    left: 650px;
+    height: 2000px;
+}
+#upfour {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 915px;
+    font-size: 60px;
+    animation-delay: 3s;    left: 70px;
+    height: 2000px;
+}
+#upfive {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 950px;
+    font-size: 60px;
+animation-delay: 4s;    left: 200px;
+height: 2000px;}
+#upsix {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 820px;
+    font-size: 60px;
+    animation-delay: 5s;    left: 500px;
+    height: 2000px;
+}
+#upseven {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 850px;
+    font-size: 60px;
+    animation-delay: 6s;    left: 450px;
+    height: 2000px;}
+#upeight {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 920px;
+    font-size: 60px;
+    animation-delay: 7s;    left: 400px;
+    height: 2000px;}
+#upnine{
+    position: absolute;
+    animation: up 4s infinite;
+    top: 91px;
+    font-size: 60px;
+    animation-delay: 0s;    left: 30px;
+    height: 2000px;}
+#upten {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 980px;
+    font-size: 60px;
+    left: 400px;
+    animation-delay: 1.5s;    left:10px;
+    height: 2000px;}
+#downone {
+    position: absolute;
+    animation: down 4s infinite;
+    top: 930px;
+    animation-delay: 2.5s;    font-size: 60px;
+    left: 850px;
+    height: 2000px;}
+#downtwo {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 890px;
+    font-size: 60px;
+    animation-delay: 3.5s;    left: 1000px;
+    left: 750px;
+    height: 2000px;}
+#downthree {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 900px;
+    font-size: 60px;
+    animation-delay: 4.5s;    left: 650px;
+    height: 2000px;}
+#downfour {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 960px;
+    font-size: 60px;
+    animation-delay: 5.5;    left: 50px;
+    height: 2000px;}
+#downfive {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 970px;
+    font-size: 60px;
+    animation-delay: 36.5;    left: 770px;
+    height: 2000px;}
+#downsix {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 850px;
+    font-size: 60px;
+    animation-delay: 7.5s;    left: 90px;
+    height: 2000px;}
+#downseven {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 850px;
+    font-size: 60px;
+    animation-delay: 8.5s;    left: 700px;
+    height: 2000px;}
+#downeight {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 800px;
+    font-size: 60px;
+    animation-delay: 9.5s;    left: 100px;
+    height: 2000px;
+}
+#downnine{
+    position: absolute;
+    animation: up 4s infinite;
+    top: 750px;
+    font-size: 60px;
+    animation-delay: 10s;    left: 150px;
+    height: 2000px;
+}
+#downten {
+    position: absolute;
+    animation: up 4s infinite;
+    top: 950px;
+    font-size: 60px;
+    left: 200px;
+    animation-delay: 8s;
+    height: 2000px;
+}
+  @keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
+@keyframes up {
+    0% {transform: translatey(0px);}
+    50% {transform: translatey(1000px);}
+    100% {transform: translatey(0px);}
+}
+
+@keyframes down {
+    0% {transform: translatey(1000px);}
+    50% {transform: translatey(0px);}
+    100% {transform: translatey(1000px);}
+}
+#whatifone {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    font-size: 60px;
+}
+#whatiftwo {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 100px;
+    font-size: 60px;
+
+}
+#whatifthree {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 150px;
+    font-size: 60px;
+
+}
+#whatiffour {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 200px;
+    font-size: 60px;
+
+}
+#whatiffive {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 250px;
+    font-size: 60px;
+}
+#whatifsix {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 5300px;
+    font-size: 60px;
+
+}
+#whatifseven {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 350px;
+    font-size: 60px;
+
+}
+#whatifeight {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 400px;
+    font-size: 60px;
+
+}
+
+#whatifnine{
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 450px;
+    font-size: 60px;
+
+}
+#whatiften {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 500px;
+    font-size: 60px;
+
+}
+#whatifeleven {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 550px;
+    font-size: 60px;
+
+}
+#whatiftwelve {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 600px;
+    font-size: 60px;
+
+}
+#whatifthirteen{
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 650px;
+    font-size: 60px;
+
+}
+#whatiffourteen {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left:700px;
+    font-size: 60px;
+
+}
+#whatiffifhteen{
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 750px;
+    font-size: 60px;
+
+}
+
+#whatiffourteen{
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 800px;
+    font-size: 60px;
+
+}
+#whatiffifthteen {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 850px;
+    font-size: 60px;
+
+}
+#whatifsixteen {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 900px;
+    font-size: 60px;
+
+}
+
+#whatifseventeen {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 950px;
+    font-size: 60px;
+
+}
+#whatifeighteen {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 1000px;
+    font-size: 60px;
+
+    
+}
+#whatifninteen{
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1250px;
+    left: 1050px;
+    font-size: 60px;
+
+    
+}
+#whatiftwenty {
+    position: absolute;
+    animation: spin 4s infinite linear;
+    top: 1100px;
+    left: 1800px;
+    font-size: 60px;
+
+    
+}
+

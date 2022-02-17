@@ -1,0 +1,447 @@
+
+body {
+    position: relative;
+    background: #341488;
+  background: -webkit-linear-gradient(left, #341488, #DA75DD);
+  background: -moz-linear-gradient(left, #341488, #DA75DD);
+  background: linear-gradient(to right, #341488, #DA75DD);
+  width: 22000px;
+
+}
+#swipe {
+  position: absolute;
+  left: 800px;
+  top:100px;
+  background: -webkit-linear-gradient(left, #DA75DD, #341488);
+  background: -moz-linear-gradient(left, #DA75DD, #341488);
+  background: linear-gradient(to right, #DA75DD, #341488);
+	animation-name: gradient2;
+  animation-duration:2s;
+  animation-direction: right;
+	height: 150px;
+  width: 22000px;
+  position: absolute;
+  top: 270px;
+  border-color:black ;
+
+}
+
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 50% 50%;
+	}
+	100% {
+		background-position: 100% 100%;
+	}
+}
+#poem {
+  position: absolute;
+  top: 20px;
+  font-size: 100px;
+  width: 22000px;
+}
+#header {
+  position: absolute;
+  top:130px;
+  left: 750px;
+  line-height: 40px;
+  z-index: 1;
+}
+#title {
+  text-align: center;
+  font-weight: lighter;
+  font-family: Helvetica;
+  font-size: 32px;
+  width: 1000px;
+}
+#shel {
+  text-align: center;
+  align-items: center;
+  font-weight: lighter;
+  font-family: Helvetica;
+  font-size: 18px;
+ 
+}
+#navsection {
+  font-weight: lighter;
+  position: sticky;
+  top: 20px;
+  width: 1665px;
+}
+#navigation {
+  font-size: 12pt;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0pt;
+  line-height: normal;
+  padding-top: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  width: 8em;
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+a:link { text-decoration: none;
+color: black; }
+
+a:visited { text-decoration: none;color: black; }
+
+a:hover { text-decoration: none; color: grey;}
+
+a:active { text-decoration: none;color: black; }
+
+
+
+.one:after {
+  left:1500px;
+  position: absolute;
+  content: '?';
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 0.8em;
+  border-radius: 50%;
+  padding: 0.13em 0.2em 0.09em 0.2em;
+  color: inherit;
+  border: 1px solid;
+  text-decoration: none;
+  background-color: pink;
+  opacity: 100%;
+}
+
+.one:hover {
+  left:1500px;
+  position: absolute;
+  content: '?';
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 0.8em;
+  border-radius: 50%;
+  padding: 0.13em 0.2em 0.09em 0.2em;
+  color: inherit;
+  border: 1px solid;
+  text-decoration: none;
+  opacity: 0%;
+  background-color: pink;
+}
+.two:after {
+  left: 3000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.two:hover {
+  left: 3000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+
+
+.three:after {
+  left: 6000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+
+.three:hover {
+  left: 6000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+.four:after {
+  left: 9000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.four:hover {
+  left: 9000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+.five:after {
+  left: 12000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.five:hover {
+  left: 12000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+
+
+.six:after {
+  left: 15000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.six:hover {
+  left: 15000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+
+.seven:after {
+  left: 18000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.seven:hover {
+  left: 18000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+
+.eight:after {
+  left: 21000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.eight:hover {
+  left: 21000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+.nine:after {
+  left: 24000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.nine:after {
+  left: 24000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}
+.ten:after {
+  left: 27000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 100%;
+}
+.ten:after {
+  left: 27000px;
+position: absolute;
+content: '?';
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 0.8em;
+line-height: 0.8em;
+border-radius: 50%;
+padding: 0.13em 0.2em 0.09em 0.2em;
+color: inherit;
+border: 1px solid;
+text-decoration: none;
+background-color: pink;
+opacity: 0%;
+}

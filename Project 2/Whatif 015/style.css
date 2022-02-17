@@ -1,0 +1,160 @@
+
+body {
+    position: relative;
+}
+#header {
+    position: absolute;
+    top:130px;
+    left: 750px;
+    line-height: 40px;
+}
+#title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 32px;
+    width: 1000px;
+}
+#shel {
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 18px;
+   
+}
+#navsection {
+    font-weight: lighter;
+    position: sticky;
+    top: 20px;
+    width: 1665px;
+}
+#navigation {
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 8em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+a:link { text-decoration: none;
+color: black; }
+
+a:visited { text-decoration: none;color: black; }
+
+a:hover { text-decoration: none; color: grey;}
+
+a:active { text-decoration: none;color: black; }
+
+#lastnight {
+border-style: groove;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 50px;
+text-align: center;
+}
+h1 
+{
+   text-transform: capitalize;
+}
+#here{
+    border-style: groove;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    width: 400px;
+    text-align:center; 
+}
+#night{
+    border-style:solid;
+    width: 300px;
+    height: 100px;
+    border-color: black;
+    background-color: black;
+    margin: -30px;
+}
+#dashed{
+    border-style:dotted;
+    text-align:center;
+    width: 800px;
+    height: 40px;
+    padding-top: 20px;
+}
+#list {
+    border-style:hidden;
+    float: right;
+    width: 800px;
+    text-align:center;
+    position: relative;
+}
+#list2 {
+    border-style:solid;
+    float: right;
+    width: 800px;
+    text-align:center;
+    position: relative;
+}
+#list3 {
+    border-style:hidden;
+    float: right;
+    width: 800px;
+    text-align:center;
+    position: relative;
+    transform: rotate(20deg);
+}
+#list4 {
+    border-style: hidden hidden solid hidden;
+    border-radius: .5px;
+    float: right;
+    width: 800px;
+    text-align:center;
+    position: relative;
+    border-color: green;
+}
+#list5 {
+    border-style:hidden;
+    border-radius: .5px;
+    float: right;
+    width: 800px;
+    text-align:center;
+    position: relative;
+    line-height: 1px;
+}
+#list6 {
+    border-style:hidden;
+    border-radius: .5px;
+    float: right;
+    width: 800px;
+    text-align:center;
+    position: relative;
+    line-height: 1px;
+}
+
+#break {
+    background-color: black;
+    width: 40px;
+    height: 3px;
+    transform: rotate(125deg);
+    left: 1000px;
+}
+#diamond {
+    border-style:solid;
+    width: 70px;
+    height: 70px;
+    transform: rotate(45deg);
+    float: right;
+    position: absolute;
+    left: 350px;
+    padding-top: 7px;
+    
+}
+h6 {
+    size: 4px;
+  
+}

@@ -1,0 +1,303 @@
+
+body {
+    position: relative;
+    width:1650px;
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0pt;
+    background: #26B32C;
+    background: -webkit-linear-gradient(bottom right, #26B32C,white, #6E92DF);
+    background: -moz-linear-gradient(bottom right, #26B32C,white, #6E92DF);
+    background: linear-gradient(to top left, #26B32C,white, #6E92DF);
+    height: 3500px;
+
+ 
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+}
+h2 {
+    text-align: center;
+    
+}
+h4{
+    font-size: 32px;
+    font-weight: bolder;
+}
+#title {
+    
+    font-weight: bolder;
+    font-size: 250px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.5em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    
+}
+
+  
+#kaya {
+    position: absolute;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    top: 5px;
+
+}
+#title:hover + #kaya {
+    
+    font-weight: bolder;
+    font-size: 250px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.5em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+#by {
+    position: absolute;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+    position: absolute;
+    left: 700px;
+    top: 430px;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+#sig{
+    position: relative;
+    width:1650px;}
+img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    align-items: center; 
+    top: 270px;
+    left: 730px;
+    width:220px;
+    height:175px;
+
+}
+a:link { text-decoration: none;
+    color: black; }
+    
+    a:visited { text-decoration: none;color: black; }
+    
+    a:hover { text-decoration: none; color: black;      
+        background: #26B32C;
+        background: -webkit-linear-gradient(bottom right, #26B32C, #6E92DF);
+        background: -moz-linear-gradient(bottom right, #26B32C, #6E92DF);
+        background: linear-gradient(to top left, #26B32C, #6E92DF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    a:active { text-decoration: none;color: black; }
+
+    #listone {
+        position: absolute;
+        top:500px;
+        left: 350px;
+        line-height: 50px;
+        font-size: 26px;
+        width: 1000px;
+    }
+    #listtwo {
+        position: absolute;
+        top:1000px;
+        left: 350px;
+        line-height: 50px;
+        font-size: 26px;
+        width: 1000px;
+    }
+    #listthree {
+        position: absolute;
+        top:1500px;
+        left: 350px;
+        line-height: 50px;
+        font-size: 26px;
+        width: 1000px;
+
+    }
+    #levelfour {
+        position: absolute;
+        top:2000px;
+        left: 350px;
+        line-height: 50px;
+        font-size: 26px;
+        width: 1000px;
+ 
+    }
+    #listfive {
+        position: absolute;
+        top:2500px;
+        left: 350px;
+        line-height: 50px;
+        font-size: 26px;
+        width: 1000px;
+       
+    }
+
+
+    #one {
+        position: absolute;
+        top:220px;
+        left: 60px;
+    }
+    #two {
+        position: absolute;
+        top:320px;
+        left:300px;
+    }
+    #three {
+        position: absolute;
+        top:430px;
+        left:180px;
+    }
+    #four {
+        position: absolute;
+        top:240px;
+        left:510px;
+    }
+    #five {
+        position: absolute;
+        top:420px;
+        left:600px;
+    }
+
+
+    #six {
+        position: absolute;
+        top:160px;
+        left: 190px;
+    }
+    #seven {
+        position: absolute;
+        top:300px;
+        left:300px;
+    }
+    #eight {
+        position: absolute;
+        top:430px;
+        left:180px;
+    }
+    #nine {
+        position: absolute;
+        top:200px;
+        left:510px;
+    }
+    #ten {
+        position: absolute;
+        top:420px;
+        left:560px;
+    }
+
+    #eleven {
+        position: absolute;
+        top:160px;
+        left: 150px;
+    }
+    #twelve {
+        position: absolute;
+        top:260px;
+        left:340px;
+    }
+    #thirteen {
+        position: absolute;
+        top:370px;
+        left:180px;
+    }
+    #fourteen {
+        position: absolute;
+        top:180px;
+        left:520px;
+    }
+    #fifthteen {
+        position: absolute;
+        top:420px;
+        left:600px;
+    }
+
+    #sixteen {
+        position: absolute;
+        top:160px;
+        left: 190px;
+    }
+    #seventeen {
+        position: absolute;
+        top:300px;
+        left:300px;
+    }
+    #eighteen {
+        position: absolute;
+        top:430px;
+        left:180px;
+    }
+    #nineteen {
+        position: absolute;
+        top:200px;
+        left:510px;
+    }
+    #twenty {
+        position: absolute;
+        top:420px;
+        left:560px;
+    }
+
+    #twentyone {
+        position: absolute;
+        top:190px;
+        left: 60px;
+    }
+    #twentytwo {
+        position: absolute;
+        top:320px;
+        left:300px;
+    }
+    #twentythree {
+        position: absolute;
+        top:430px;
+        left:180px;
+    }
+    #twentyfour {
+        position: absolute;
+        top:240px;
+        left:510px;
+    }
+    #twentyfive {
+        position: absolute;
+        top:420px;
+        left:600px;
+    }
+

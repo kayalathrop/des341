@@ -1,0 +1,1115 @@
+body {
+    width: 1600px;
+    position: relative;
+    background-color: rgb(185, 231, 249);
+}
+#header {
+    position: absolute;
+    top:130px;
+    left: 750px;
+    line-height: 40px;
+}
+#title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 32px;
+    width: 1000px;
+}
+#shel {
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 18px;
+   
+}
+#navsection {
+    font-weight: lighter;
+    position: sticky;
+    top: 20px;
+    width: 1665px;
+}
+#navigation {
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0pt;
+    line-height: normal;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 8em;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+a:link { text-decoration: none;
+color: black; }
+
+a:visited { text-decoration: none;color: black; }
+
+a:hover { text-decoration: none; color: grey;}
+
+a:active { text-decoration: none;color: black; }
+
+#poem { font-family:Impact;
+    letter-spacing: 2px;
+ }
+#last {
+    font-size: 30px;
+    position: absolute;
+    right: 770px;
+    top: 355px;
+    color: rgb(30, 30, 136);
+}
+#night {
+    font-size: 34px;
+    position: absolute;
+    right: 893px;
+    top: 488px;
+    color: rgb(159, 21, 33);
+}
+#while {
+    font-size: 12px;
+    position: absolute;
+    right: 870px;
+    top: 427px;
+    color: rgb(55, 151, 48);
+}
+#I {
+
+    font-size: 38px;
+    position: absolute;
+    right: 899px;
+    top: 360px;
+    color: rgb(229, 179, 0);
+}
+#lay {
+    font-size: 24px;
+    position: absolute;
+    right: 699px;
+    top: 490px;
+    color: rgb(190, 31, 182);
+}
+#thinking {
+    font-size: 32px;
+    position: absolute;
+    right: 760px;
+    top: 387px;
+    color: rgb(30, 30, 136);
+}
+#here {
+    font-size: 30px;
+    position: absolute;
+    right: 800px;
+    top: 410px;
+    color: rgb(159, 21, 33);
+}
+#some {
+    font-size: 12px;
+    position: absolute;
+    right: 907px;
+    top: 244px;
+    color: rgb(55, 151, 48);
+}
+#Ws {
+    font-size: 14px;
+    position: absolute;
+    right: 1000px;
+    top: 390px;
+    color: rgb(229, 179, 0);
+}
+#crawled {
+    font-size: 30px;
+    position: absolute;
+    right: 835px;
+    top: 470px;
+    color: rgb(190, 31, 182);
+}
+#inside {
+    font-size: 24px;
+    position: absolute;
+    right: 600px;
+    top: 372px;
+    color: rgb(30, 30, 136);
+}
+#my {
+    font-size: 18px;
+    position: absolute;
+    right: 675px;
+    top: 277px;
+    color: rgb(159, 21, 33);
+}
+#ear {
+    font-size: 28px;
+    position: absolute;
+    right: 780px;
+    top: 274px;
+    color: rgb(55, 151, 48);
+}
+#and {
+    font-size: 14px;
+    position: absolute;
+    right: 766px;
+    top: 291px;
+    color: rgb(229, 179, 0);
+}
+#pranced {
+    font-size: 12px;
+    position: absolute;
+    right: 797px;
+    top: 306px;
+    color: rgb(190, 31, 182);
+}
+#and2 {
+    font-size: 32px;
+    position: absolute;
+    right: 979px;
+    top: 300px;
+    color: rgb(30, 30, 136);
+}
+#partied {
+    font-size: 24px;
+    position: absolute;
+    right: 653px;
+    top: 524px;
+    color: rgb(159, 21, 33);
+    
+}
+#all {
+    font-size: 32px;
+    position: absolute;
+    right: 777px;
+    top: 500px;
+    color: rgb(55, 151, 48);
+}
+#night2 {
+    font-size: 34px;
+    position: absolute;
+    right: 810px;
+    top: 510px;
+    color: rgb(229, 179, 0);
+}
+#long {
+    font-size: 38px;
+    position: absolute;
+    right: 660px;
+    top: 410px;
+    color: rgb(190, 31, 182);
+}
+#and3 {
+    font-size: 12px;
+    position: absolute;
+    right: 693px;
+    top: 454px;
+    color: rgb(30, 30, 136);
+}
+#sang {
+    font-size: 34px;
+    position: absolute;
+    right: 890px;
+    top: 280px;
+    color: rgb(159, 21, 33);
+}
+#their {
+    font-size: 16px;
+    position: absolute;
+    right: 587px;
+    top: 478px;
+    color: rgb(55, 151, 48);
+}
+#same {
+    font-size: 14px;
+    position: absolute;
+    right: 933px;
+    top: 567px;
+    color: rgb(229, 179, 0);
+}
+#old {
+    font-size: 32px;
+    position: absolute;
+    right: 790px;
+    top: 560px;
+    color: rgb(190, 31, 182);
+}
+#song {
+    font-size: 30px;
+    position: absolute;
+    right: 980px;
+    top: 423px;
+    color: rgb(30, 30, 136);
+}
+#Whatif1 {
+    font-size: 24px;
+    position: absolute;
+    right: 790px;
+    top: 400px;
+    color: rgb(159, 21, 33);
+}
+#Im {
+    font-size: 36px;
+    position: absolute;
+    right: 1023px;
+    top: 346px;
+    color: rgb(55, 151, 48);
+}
+#dumb {
+    font-size: 14px;
+    position: absolute;
+    right: 660px;
+    top: 300px;
+    color: rgb(229, 179, 0);
+}
+#in {
+    font-size: 38px;
+    position: absolute;
+    right: 600px;
+    top: 400px;
+    color: rgb(190, 31, 182);
+}
+#school {
+    font-size: 28px;
+    position: absolute;
+    right: 830px;
+    top: 258px;
+    color: rgb(30, 30, 136);
+}
+#Whatif2 {
+    font-size: 12px;
+    position: absolute;
+    right: 820px;
+    top: 502px;
+    color: rgb(159, 21, 33);
+}
+#theyve {
+    font-size: 32px;
+    position: absolute;
+    right: 980px;
+    top: 550px;
+    color: rgb(55, 151, 48);
+}
+#closed {
+    font-size: 38px;
+    position: absolute;
+    right: 600px;
+    top: 497px;
+    color: rgb(229, 179, 0);
+}
+#the {
+    font-size: 16px;
+    position: absolute;
+    right: 760px;
+    top: 430px;
+    color: rgb(190, 31, 182);
+}
+#swimming {
+    font-size: 16px;
+    position: absolute;
+    right: 640px;
+    top: 540px;
+    color: rgb(30, 30, 136);
+}
+#pool {
+    font-size: 30px;
+    position: absolute;
+    right: 694px;
+    top: 357px;
+    color: rgb(159, 21, 33);
+}
+#Whatif3{
+    font-size: 18px;
+    position: absolute;
+    right: 710px;
+    top: 572px;
+    color: rgb(55, 151, 48);
+}
+#I8 {
+    font-size: 20;
+    position: absolute;
+    right: 960px;
+    top: 300px;
+    color: rgb(229, 179, 0);
+}
+#get {
+    font-size: 32px;
+    position: absolute;
+    right: 960px;
+    top: 290px;
+    color: rgb(190, 31, 182);
+}
+#beat {
+    font-size: 34px;
+    position: absolute;
+    right: 707px;
+    top: 320px;
+    color: rgb(30, 30, 136);
+}
+#up {
+    font-size: 38px;
+    position: absolute;
+    right: 610px;
+    top: 433px;
+    color: rgb(159, 21, 33);
+}
+#Whatif4 {
+    font-size: 16px;
+    position: absolute;
+    right: 605px;
+    top: 333px;
+    color: rgb(55, 151, 48);
+}
+#theres {
+    font-size: 24px;
+    position: absolute;
+    right: 718px;
+    top: 470px;
+    color: rgb(229, 179, 0);
+}
+#poison {
+    font-size: 38px;
+    position: absolute;
+    right: 899px;
+    top: 509px;
+    color: rgb(190, 31, 182);
+}
+#in2 {
+    font-size: 28px;
+    position: absolute;
+    right:857px;
+    top: 569px;
+    color: rgb(30, 30, 136);
+}
+#my2 {
+    font-size: 20px;
+    position: absolute;
+    right: 1030px;
+    top: 480px;
+    color: rgb(159, 21, 33);
+}
+#cup {
+    font-size: 32px;
+    position: absolute;
+    right: 950px;
+    top: 400px;
+    color: rgb(55, 151, 48);
+}
+#Whatif5 {
+    font-size: 38px;
+    position: absolute;
+    right: 810px;
+    top: 437px;
+    color: rgb(229, 179, 0);
+}
+#I2 {
+    font-size: 24px;
+    position: absolute;
+    right: 970px;
+    top: 270px;
+    color: rgb(190, 31, 182);
+}
+#start {
+    font-size: 32px;
+    position: absolute;
+    right: 896px;
+    top: 323px;
+    color: rgb(30, 30, 136);
+}
+#to {
+    font-size: 38px;
+    position: absolute;
+    right: 840px;
+    top: 360px;
+    color: rgb(159, 21, 33);
+}
+#cry {
+    font-size: 34px;
+    position: absolute;
+    right: 880px;
+    top: 570px;
+    color: rgb(55, 151, 48);
+}
+#Whatif6 {
+    font-size: 26px;
+    position: absolute;
+    right: 607px;
+    top: 560px;
+    color: rgb(229, 179, 0);
+}
+#I3 {
+    font-size: 38px;
+    position: absolute;
+    right: 737px;
+    top: 287px;
+    color: rgb(190, 31, 182);
+}
+#get2 {
+    font-size: 14px;
+    position: absolute;
+    right: 937px;
+    top: 536px;
+    color: rgb(30, 30, 136);
+}
+#sick {
+    font-size: 22px;
+    position: absolute;
+    right: 745px;
+    top: 550px;
+    color: rgb(159, 21, 33);
+}
+#and4 {
+    font-size: 26px;
+    position: absolute;
+    right: 740px;
+    top: 450px;
+    color: rgb(55, 151, 48);
+}
+#die {
+    font-size: 38px;
+    position: absolute;
+    right: 827px;
+    top: 300px;
+    color: rgb(229, 179, 0);
+}
+#Whatif7 {
+    font-size: 10px;
+    position: absolute;
+    right: 989px;
+    top: 340px;
+    color: rgb(190, 31, 182);
+}
+#I4 {
+    font-size: 32px;
+    position: absolute;
+    right: 650px;
+    top: 457px;
+    color: rgb(30, 30, 136);
+}
+#flunk {
+    font-size: 36px;
+    position: absolute;
+    right: 786px;
+    top: 329px;
+    color: rgb(159, 21, 33);
+}
+#that {
+    font-size: 24px;
+    position: absolute;
+    right: 659px;
+    top: 468px;
+    color: rgb(55, 151, 48);
+}
+#test {
+    font-size: 16px;
+    position: absolute;
+    right: 1060px;
+    top: 500px;
+    color: rgb(229, 179, 0);
+}
+#Whatif8 {
+    font-size: 38px;
+    position: absolute;
+    right: 601px;
+    top: 345px;
+    color: rgb(190, 31, 182);
+}
+#green {
+    font-size: 18px;
+    position: absolute;
+    right: 739px;
+    top: 530px;
+    color: rgb(30, 30, 136);
+}
+#hair {
+    font-size: 20px;
+    position: absolute;
+    right: 1000px;
+    top: 410px;
+    color: rgb(159, 21, 33);
+}
+#grows {
+    
+    font-size: 32px;
+    position: absolute;
+    right: 650px;
+    top: 387px;
+    color: rgb(55, 151, 48);
+}
+#on {
+    font-size: 30px;
+    position: absolute;
+    right: 1090px;
+    top: 549px;
+    color: rgb(229, 179, 0);
+}
+#my3 {
+    font-size: 28px;
+    position: absolute;
+    right: 600px;
+    top: 540px;
+    color: rgb(190, 31, 182);
+}
+#chest {
+    font-size: 10px;
+    position: absolute;
+    right: 600px;
+    top: 570px;
+    color: rgb(30, 30, 136);
+}
+#Whatif9 {
+    font-size: 32px;
+    position: absolute;
+    right: 830px;
+    top: 530px;
+    color: rgb(159, 21, 33);
+}
+#nobody {
+    font-size: 32px;
+    position: absolute;
+    right: 600px;
+    top: 310px;
+    color: rgb(229, 179, 0);
+}
+#likes {
+    font-size: 32px;
+    position: absolute;
+    right: 875px;
+    top: 305px;
+    color: rgb(190, 31, 182);
+}
+#me {
+    font-size: 32px;
+    position: absolute;
+    right: 562px;
+    top: 523px;
+    color: rgb(30, 30, 136);
+}
+#Whatif10 {
+    font-size: 32px;
+    position: absolute;
+    right: 540px;
+    top: 486px;
+    color: rgb(159, 21, 33);
+}
+#a {
+    font-size: 32px;
+    position: absolute;
+    right: 560px;
+    top: 507px;
+    color: rgb(55, 151, 48);
+}
+#bolt {
+    font-size: 32px;
+    position: absolute;
+    right: 977px;
+    top: 484px;
+    color: rgb(229, 179, 0);
+}
+#of {
+    font-size: 32px;
+    position: absolute;
+    right: 939px;
+    top: 417px;
+    color: rgb(190, 31, 182);
+}
+#lightning {
+    font-size: 30px;
+    position: absolute;
+    right: 520px;
+    top: 421px;
+    color: rgb(30, 30, 136);
+}
+#strikes {
+    font-size: 32px;
+    position: absolute;
+    right: 700px;
+    top: 433px;
+    color: rgb(159, 21, 33);
+}
+#me3 {
+    font-size: 32px;
+    position: absolute;
+    right: 920px;
+    top: 250px;
+    color: rgb(229, 179, 0);
+}
+#Whatif11 {
+    font-size: 32px;
+    position: absolute;
+    right: 720px;
+    top: 257px;
+    color: rgb(190, 31, 182);
+}
+#I5 {
+    font-size: 32px;
+    position: absolute;
+    right: 800px;
+    top: 400px;
+    color: rgb(30, 30, 136);
+}
+#dont {
+    font-size: 32px;
+    position: absolute;
+    right: 970px;
+    top: 570px;
+    color: rgb(159, 21, 33);
+}
+#grow {
+    font-size: 32px;
+    position: absolute;
+    right: 730px;
+    top: 305px;
+    color: rgb(55, 151, 48);
+}
+#talle {
+    font-size: 32px;
+    position: absolute;
+    right: 740px;
+    top: 573px;
+    color: rgb(229, 179, 0);
+}
+#Whatif13 {
+    font-size: 28px;
+    position: absolute;
+    right: 739px;
+    top: 489px;
+    color: rgb(190, 31, 182);
+}
+#my4 {
+    font-size: 32px;
+    position: absolute;
+    right: 678px;
+    top: 570px;
+    color: rgb(30, 30, 136);
+}
+#head2 {
+    font-size: 32px;
+    position: absolute;
+    right: 1040px;
+    top: 400px;
+    color: rgb(159, 21, 33);
+}
+#starts {
+    font-size: 32px;
+    position: absolute;
+    right:570px;
+    top: 570px;
+    color: rgb(55, 151, 48);
+}
+#getting {
+    font-size: 24px;
+    position: absolute;
+    right: 1000px;
+    top: 318px;
+    color: rgb(229, 179, 0);
+}
+#smaller {
+    font-size: 16px;
+    position: absolute;
+    right: 820px;
+    top: 596px;
+    color: rgb(190, 31, 182);
+}
+#Whatif14 {
+    font-size: 20px;
+    position: absolute;
+    right: 920px;
+    top: 592px;
+    color: rgb(30, 30, 136);
+}
+#the2 {
+    font-size: 32px;
+    position: absolute;
+    right: 810px;
+    top: 240px;
+    color: rgb(159, 21, 33);
+}
+#fish2 {
+    font-size: 26px;
+    position: absolute;
+    right: 830px;
+    top: 275px;
+    color: rgb(55, 151, 48);
+}
+#wont {
+    font-size: 24px;
+    position: absolute;
+    right: 520px;
+    top: 460px;
+    color: rgb(229, 179, 0);
+}
+#bite {
+    font-size: 18px;
+    position: absolute;
+    right: 1060px;
+    top: 380px;
+    color: rgb(190, 31, 182);
+}
+#Whatif15 {
+    font-size: 24px;
+    position: absolute;
+    right: 660px;
+    top: 280px;
+    color: rgb(30, 30, 136);
+}
+#the3 {
+    font-size: 28px;
+    position: absolute;
+    right: 700px;
+    top: 590px;
+    color: rgb(159, 21, 33);
+}
+#wind {
+    font-size: 30px;
+    position: absolute;
+    right: 540px;
+    top: 390px;
+    color: rgb(55, 151, 48);
+}
+#tears {
+    font-size: 32px;
+    position: absolute;
+    right: 1050px;
+    top: 430px;
+    color: rgb(229, 179, 0);
+}
+#up2 {
+    font-size: 20px;
+    position: absolute;
+    right: 680px;
+    top: 555px;
+    color: rgb(190, 31, 182);
+}
+#my5 {
+    font-size: 30px;
+    position: absolute;
+    right: 980px;
+    top: 378px;
+    color: rgb(30, 30, 136);
+}
+#kite {
+    font-size: 32px;
+    position: absolute;
+    right: 541px;
+    top: 360px;
+    color: rgb(159, 21, 33);
+}
+#Whatif16 {
+    font-size: 22px;
+    position: absolute;
+    right: 1060px;
+    top: 470px;
+    color: rgb(55, 151, 48);
+}
+#they {
+    font-size: 18px;
+    position: absolute;
+    right: 880px;
+    top: 560px;
+    color: rgb(229, 179, 0);
+}
+#start2 {
+    font-size: 16px;
+    position: absolute;
+    right: 880px;
+    top: 570px;
+    color: rgb(190, 31, 182);
+}
+#a2 {
+    font-size: 32px;
+    position: absolute;
+    right: 909px;
+    top: 450px;
+    color: rgb(30, 30, 136);
+}
+#war {
+    font-size: 22px;
+    position: absolute;
+    right: 860px;
+    top: 450px;
+    color: rgb(159, 21, 33);
+}
+#Whatif17 {
+    font-size: 26px;
+    position: absolute;
+    right: 796px;
+    top: 550px;
+    color: rgb(55, 151, 48);
+}
+#my6 {
+    font-size: 32px;
+    position: absolute;
+    right: 570px;
+    top: 393px;
+    color: rgb(229, 179, 0);
+}
+#parents {
+    font-size: 26px;
+    position: absolute;
+    right: 600px;
+    top: 472px;
+    color: rgb(190, 31, 182);
+}
+#get {
+    font-size: 24px;
+    position: absolute;
+    right: 687px;
+    top: 472px;
+    color: rgb(30, 30, 136);
+}
+#divorced {
+    font-size: 16px;
+    position: absolute;
+    right: 1050px;
+    top: 550px;
+    color: rgb(159, 21, 33);
+}
+#Whatif18 {
+    font-size: 20px;
+    position: absolute;
+    right: 670px;
+    top: 505px;
+    color: rgb(55, 151, 48);
+}
+#the4 {
+    font-size: 12px;
+    position: absolute;
+    right: 980px;
+    top: 400px;
+    color: rgb(229, 179, 0);
+}
+#bus {
+    font-size: 20px;
+    position: absolute;
+    right: 960px;
+    top: 290px;
+    color: rgb(190, 31, 182);
+}
+#is2 {
+    font-family: Impact;
+    font-size: 32px;
+    position: absolute;
+    right: 1020px;
+    top: 365px;
+    color: rgb(30, 30, 136);
+}
+#late {
+    font-family: Impact;
+    font-size: 18px;
+    position: absolute;
+    right: 640px;
+    top: 400px;
+    color: rgb(159, 21, 33);
+}
+#Whatif19 {
+    font-family: Impact;
+    font-size: 24px;
+    position: absolute;
+    right: 950px;
+    top: 315px;
+    color: rgb(55, 151, 48);
+}
+#my7 {
+    font-size: 28px;
+    position: absolute;
+    right: 720px;
+    top: 340px;
+    color: rgb(229, 179, 0);
+}
+#teeth {
+    font-size: 20px;
+    position: absolute;
+    right: 860px;
+    top: 350px;
+    color: rgb(190, 31, 182);
+}
+#dont2 {
+    font-size: 16px;
+    position: absolute;
+    right: 800px;
+    top: 320px;
+    color: rgb(30, 30, 136);
+}
+#grow2 {
+    font-size: 22px;
+    position: absolute;
+    right: 800px;
+    top: 600px;
+    color: rgb(159, 21, 33);
+}
+#in3 {
+    font-size: 32px;
+    position: absolute;
+    right: 900px;
+    top: 430px;
+    color: rgb(55, 151, 48);
+}
+#straight {
+    font-size: 18px;
+    position: absolute;
+    right: 930px;
+    top: 450px;
+    color: rgb(229, 179, 0);
+}
+#Whatif20 {
+    font-size: 16px;
+    position: absolute;
+    right: 1060px;
+    top: 507px;
+    color: rgb(190, 31, 182);
+}
+#I6 {
+    font-size: 32px;
+    position: absolute;
+    right: 833px;
+    top: 559px;
+    color: rgb(30, 30, 136);
+}
+#tear {
+    font-size: 32px;
+    position: absolute;
+    right: 1060px;
+    top: 477px;
+    color: rgb(159, 21, 33);
+}
+#my8 {
+    font-size: 32px;
+    position: absolute;
+    right: 510px;
+    top: 500px;
+    color: rgb(55, 151, 48);
+}
+#pants {
+    font-size: 28px;
+    position: absolute;
+    right: 500px;
+    top: 520px;
+    color: rgb(229, 179, 0);
+}
+#Whatif21 {
+    font-size: 24px;
+    position: absolute;
+    right: 520px;
+    top: 550px;
+    color: rgb(190, 31, 182);
+}
+#I7 {
+    font-size: 24px;
+    position: absolute;
+    right: 775px;
+    top: 595px;
+    color: rgb(30, 30, 136);
+}
+#never {
+    font-size: 16px;
+    position: absolute;
+    right: 850px;
+    top: 250px;
+    color: rgb(229, 179, 0);
+}
+#learn {
+    font-size: 20px;
+    position: absolute;
+    right: 650px;
+    top: 330px;
+    color: rgb(159, 21, 33);
+}
+#to2 {
+    font-size: 32px;
+    position: absolute;
+    right: 667px;
+    top: 421px;
+    color: rgb(55, 151, 48);
+}
+#dance {
+    font-size: 32px;
+    position: absolute;
+    right: 890px;
+    top: 370px;
+    color: rgb(229, 179, 0);
+}
+#everything {
+    font-size: 32px;
+    position: absolute;
+    right: 950px;
+    top: 450px;
+    color: rgb(190, 31, 182);
+}
+#seems {
+    font-size: 32px;
+    position: absolute;
+    right: 777px;
+    top: 460px;
+    color: rgb(30, 30, 136);
+}
+#well {
+    font-size: 32px;
+    position: absolute;
+    right: 870px;
+    top: 433px;
+    color: rgb(159, 21, 33);
+}
+#and5 {
+    font-size: 32px;
+    position: absolute;
+    right: 800px;
+    top: 340px;
+    color: rgb(55, 151, 48);
+}
+#then2 {
+    font-size: 32px;
+    position: absolute;
+    right: 700px;
+    top: 400px;
+    color: rgb(229, 179, 0);
+}
+#the5 {
+    font-size: 18px;
+    position: absolute;
+    right: 535px;
+    top: 410px;
+    color: rgb(190, 31, 182);
+}
+#nighttime {
+    font-size: 30px;
+    position: absolute;
+    right: 990px;
+    top: 520px;
+    color: rgb(30, 30, 136);
+}
+#Ws2 {
+    font-size: 32px;
+    position: absolute;
+    right: 900px;
+    top: 350px;
+    color: rgb(159, 21, 33);
+}
+#strike {
+    font-size: 32px;
+    position: absolute;
+    right: 910px;
+    top: 468px;
+    color: rgb(55, 151, 48);
+}
+#again {
+    font-size: 18px;
+    position: absolute;
+    right: 800px;
+    top: 270px;
+    color: rgb(229, 179, 0);
+}
+#Whatif1 {
+    font-size: 32px;
+    position: absolute;
+    right: 830px;
+    top: 395px;
+    color: rgb(190, 31, 182);
+}
+#Whatif12 {
+    font-size: 28px;
+    position: absolute;
+    right: 890px;
+    top: 410px;
+    color: rgb(30, 30, 136);
+}
